@@ -23,7 +23,7 @@ jobs:
         run: chmod +x gradlew
 
       - name: Install CMake 3.10.2
-        run: echo "y" | sudo ${ANDROID_HOME}/cmdline-tools/latest/bin/sdkmanager "cmake;3.10.2"
+        run: echo "y" | ${ANDROID_HOME}/cmdline-tools/latest/bin/sdkmanager "cmake;3.10.2.4988404"
 
       - name: Clean Gradle Cache
         run: ./gradlew clean
