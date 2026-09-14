@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.modmenu'
+    namespace 'com.example.modmenu2'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.modmenu"
+        applicationId "com.example.modmenu2"
         minSdk 21
         targetSdk 33
         versionCode 1
